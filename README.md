@@ -2,13 +2,16 @@
 These are my messy solutions for [Google Code Jam 2019](https://codingcompetitions.withgoogle.com/codejam/schedule) in **Python 3**. May only update after each round so no cheating :)
 
 In each folder, the following files can be present:
-* `problem.md`: A Markdown-version of the problem
-* `sample.in`: Sample input directly from `problem.md`
-* `interactive_runner.py`: [Interactive runner](https://storage.googleapis.com/coding-competitions.appspot.com/interactive_runner.py) offered by Code Jam. See explanation on [Code Jam FAQ](https://codingcompetitions.withgoogle.com/codejam/faq). (Only in interactive problems)
-* `testing_tool.py`: Testing tool offered by an interactive problem. (Only in interactive problems)
-* `testing_tool-mod.py`: Gently modified testing tool for better testing. (Only in interactive problems)
-* `solution-sub-P|F[+].py`: My best (in most cases, last) attempt, submitted and judged, with results attached. E.g., the solution passed 1st and 2nd test set but failed 3rd would be named `solution-sub-PPF.py`
-* `solution-mod-P|F[+].py`: My best solution submitted after the content, if `solution-sub-P|F[+].py` is not good enough
+* Vanilla files from the problem:
+  * `problem.md`: A Markdown-version of the problem
+  * `sample.in`: Sample input directly from `problem.md`
+  * `interactive_runner.py`: [Interactive runner](https://storage.googleapis.com/coding-competitions.appspot.com/interactive_runner.py) offered by Code Jam. See explanation on [Code Jam FAQ](https://codingcompetitions.withgoogle.com/codejam/faq). (Only in interactive problems)
+  * `testing_tool.py`: Testing tool offered by an interactive problem. (Only in interactive problems)
+* My files (Uploaded **after** round ends):
+  * `analysis.md`: My analysis for the problem
+  * `testing_tool-mod.py`: Gently modified testing tool for better testing. (Only in interactive problems)
+  * `solution-sub-P|F|U[+].py`: My best (in most cases, last) attempt, submitted and judged, with results attached. E.g., the solution passed 1st but failed 2nd test set and did not have 3rd set checked would be named `solution-sub-PFU.py`
+  * `solution-mod-P|F[+].py`: My best solution submitted after the content, if `solution-sub-P|F[+].py` is not good enough, with results attached. E.g., the solution passed 1st and 2nd test set but failed 3rd would be named `solution-mod-PPF.py`
 
 ## Why Python 3?
 It's good enough; it runs fast enough; I'm lazy; it has much handled for me.
