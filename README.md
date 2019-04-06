@@ -14,7 +14,6 @@ that are available as example.
 
 ## Why Python 3?
 It's good enough; it runs fast enough; I'm lazy; it has much handled for me.
-(Though I still find myself uncontrollably typing ;'s after every statement)
 
 ## Progress
 
