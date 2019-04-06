@@ -19,10 +19,10 @@ It's good enough; it runs fast enough; I'm lazy; it has much handled for me.
 ## Progress
 
 ### Qualification
-- [ ]
-- [ ]
-- [ ]
-- [ ]
+- [ ] Foregone Solution
+- [ ] You Can Go Your Own Way
+- [ ] Cryptopangrams
+- [ ] Dat Bae
 
 ### 1A
 
