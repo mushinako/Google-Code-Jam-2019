@@ -1,5 +1,5 @@
 # Google Code Jam 2019
-These are my messy solutions for [Google Code Jam 2019](https://codingcompetitions.withgoogle.com/codejam/schedule) in **Python 3**. Will only update after each round so no cheating :)
+These are my messy solutions for [Google Code Jam 2019](https://codingcompetitions.withgoogle.com/codejam/schedule) in **Python 3**. May only update after each round so no cheating :)
 
 In each folder, the following files can be present:
 * `problem.md`: A Markdown-version of the problem
