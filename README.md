@@ -24,11 +24,16 @@ It's good enough; it runs fast enough; I'm lazy; it has much handled for me.
 - [ ] Cryptopangrams
 - [ ] Dat Bae
 
-### 1A
+<!-- ### 1A
+- [ ] -->
 
 ## Contribution!
 Contributions are greatly appreciated! Do a pull request, or just start your
 own repository! Lemme know if there are any errors in my solutions as well!
 
 ## License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+
+Problems are directly retrieved from [Google Code Jam](https://codingcompetitions.withgoogle.com/codejam) website.
