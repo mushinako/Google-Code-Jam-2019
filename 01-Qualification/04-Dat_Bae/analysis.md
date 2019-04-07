@@ -35,7 +35,7 @@ E.g., `0`, `4`, `7`, `10`, and `15` are broken, then the results would be:
 
 To parse the output, convert each column back to numbers. These are the working machines:
 
-| Query      |
+| Query      |       |       |       |       |       |       |       |        |        |        |        |
 | :--------: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :----: | :----: | :----: | :----: |
 | **2nd**    | 0     | 0     | 0     | 0     | 0     | 1     | 1     | 1      | 1      | 1      | 1      |
 | **3rd**    | 0     | 0     | 0     | 1     | 1     | 0     | 0     | 0      | 1      | 1      | 1      |
