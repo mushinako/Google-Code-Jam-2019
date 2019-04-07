@@ -16,8 +16,10 @@ In each folder, the following files can be present:
 ## Why Python 3?
 It's good enough; it runs fast enough; I'm lazy; it has much handled for me.
 
-## Progress
+## Results
+* Qualification: 100/100, #154
 
+## Progress
 ### Qualification
 - [x] Foregone Solution
 - [x] You Can Go Your Own Way
