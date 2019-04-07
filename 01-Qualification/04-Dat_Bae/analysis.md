@@ -10,7 +10,7 @@ The key here is that there can be at most `15` errors. Therefore, divide all mac
 
 Therefore, for the 1st query, we send alternating `0` and `1` blocks of size 16 (like `000000000000000011111111111111110000`), and we check the response for each group. The number of decreases in `0` or `1` is the number of errors in that group, and no groups can be empty
 
-Now we have at most 15 groups of at most 16 (the final group may have less than 16 machines, depending on the total number of machines). For each group, the machines can be id-ed by a 4-bit number `0000b` to `1111b` Check for each digit once, and all 15 (at most) groups can be done simultaneously.
+Now we have at most 15 groups of at most 16 (the final group may have less than 16 machines, depending on the total number of machines). For each group, the machines can be id-ed by a 4-bit number `0000b` to `1111b` Check for each digit once, and all 15 (at most) groups can be done simultaneously
 
 ### More detailed explanation
 The binaries of numbers are as follows (The first query is the alternating 16-sized blocks):
@@ -22,7 +22,7 @@ The binaries of numbers are as follows (The first query is the alternating 16-si
 | **4th** | 0   | 0   | 1   | 1   | 0   | 0   | 1   | 1   | 0   | 0   | 1   | 1   | 0   | 0   | 1   | 1   |
 | **5th** | 0   | 1   | 0   | 1   | 0   | 1   | 0   | 1   | 0   | 1   | 0   | 1   | 0   | 1   | 0   | 1   |
 
-If a machine is broken, the returning value would miss the position for all 4 queries.
+If a machine is broken, the returning value would miss the position for all 4 queries
 
 E.g., `0`, `4`, `7`, `10`, and `15` are broken, then the results would be:
 
