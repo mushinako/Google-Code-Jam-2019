@@ -28,6 +28,7 @@ def main():
             p = x // p
             factored.append(p)
         # Add preceding primes (from `nums_removed`)
+        # `reverse-append-reverse` instead of `insert` due to time complexity
         factored.reverse()
         for x in nums_removed:
             q = x // q
