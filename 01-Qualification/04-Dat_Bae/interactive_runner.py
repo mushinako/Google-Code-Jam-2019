@@ -19,34 +19,30 @@
 # server, which is more complex.
 
 from __future__ import print_function
-import sys
-import subprocess
-import threading
-
+import sys, subprocess, threading
 
 class SubprocessThread(threading.Thread):
-    def __init__(self,
-                 args,
-                 stdin_pipe=subprocess.PIPE,
-                 stdout_pipe=subprocess.PIPE,
-                 stderr_pipe=subprocess.PIPE):
-        threading.Thread.__init__(self)
-        self.p = subprocess.Popen(
-            args,
-            stdin=stdin_pipe,
-            stdout=stdout_pipe,
-            stderr=stderr_pipe)
+  def __init__(self,
+               args,
+               stdin_pipe=subprocess.PIPE,
+               stdout_pipe=subprocess.PIPE,
+               stderr_pipe=subprocess.PIPE):
+    threading.Thread.__init__(self)
+    self.p = subprocess.Popen(
+        args,
+        stdin=stdin_pipe,
+        stdout=stdout_pipe,
+        stderr=stderr_pipe)
 
-    def run(self):
-        try:
-            self.return_code = self.p.wait()
-            self.stdout = "" if self.p.stdout is None else self.p.stdout.read()
-            self.stderr = "" if self.p.stderr is None else self.p.stderr.read()
-        except (SystemError, OSError):
-            self.return_code = -1
-            self.stdout = ""
-            self.stderr = "The process crashed or produced too much output."
-
+  def run(self):
+    try:
+      self.return_code = self.p.wait()
+      self.stdout = "" if self.p.stdout is None else self.p.stdout.read()
+      self.stderr = "" if self.p.stderr is None else self.p.stderr.read()
+    except (SystemError, OSError):
+      self.return_code = -1
+      self.stdout = ""
+      self.stderr = "The process crashed or produced too much output."
 
 assert sys.argv.count("--") == 1, (
     "There should be exactly one instance of '--' in the command line.")
