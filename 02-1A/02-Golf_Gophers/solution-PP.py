@@ -7,18 +7,21 @@ PROD = 2**4 * 3**2 * 5 * 7 * 11 * 13 * 17
 
 
 def main():
+    # No need of `n` and `m`
     t, _, __ = [int(x) for x in input().split()]
     for _ in range(t):
         golf_gophers()
 
 
 def golf_gophers():
+    # Collect judge response for all coprime numbers
     judge_res = []
     for p in BLADES:
         fprint(' '.join([str(p)]*18))
         judge_res.append(sum(
             [int(x) for x in judge_input().split()]))
     # eprint(judge_res)
+    # Calculate using Chinese remainder theorem
     fprint(crt(BLADES, judge_res))
     if judge_input() == '1':
         return
