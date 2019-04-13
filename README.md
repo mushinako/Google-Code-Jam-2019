@@ -9,15 +9,17 @@ In each folder, the following files can be present:
   * `testing_tool.py`: Testing tool offered by an interactive problem. (Only in interactive problems)
 * My files (Uploaded **after** round ends):
   * `analysis.md`: My analysis for the problem
-  * `solution-sub-P|F|U[+].py`: My best (in most cases, last) attempt, submitted and judged, with results marked in the name. E.g., the solution passed 1st but failed 2nd test set and did not have 3rd set checked would be named `solution-sub-PFU.py`
-  * `solution-mod-P|F[+].py`: My best solution submitted after the content, if `solution-sub-P|F[+].py` is not good enough, with results marked in the name. E.g., the solution passed 1st and 2nd test set but failed 3rd would be named `solution-mod-PPF.py`
+  * `solution-P|F|U[+].py`: My best attempt with results marked in the name. E.g., the solution passed 1st but failed 2nd test set and did not have 3rd set checked would be named `solution-sub-PFU.py`
   * Other files, if present, will be explained in `analysis.md`
 
 ## Why Python 3?
 It's good enough; it runs fast enough; I'm lazy; it has much handled for me.
 
 ## Results
-* Qualification: 100/100, #154
+| Round         | Pts | Rank |
+| :-----------: | :-: | :--: |
+| Qualification | 100 | 154  |
+| 1A            | 32  | 2524 |
 
 ## Progress
 ### Qualification
@@ -26,8 +28,10 @@ It's good enough; it runs fast enough; I'm lazy; it has much handled for me.
 - [x] Cryptopangrams
 - [x] Dat Bae
 
-<!-- ### 1A
-- [ ] -->
+### 1A
+- [ ] Pylons
+- [x] Golf Gophers
+- [ ] Alien Rhyme
 
 ## Contribution!
 Contributions are greatly appreciated! Do a pull request, or just start your own repository! Let me know if there are any errors in my solutions as well! Greatest appreciations in advance!

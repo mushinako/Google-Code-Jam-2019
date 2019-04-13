@@ -22,21 +22,17 @@ The first line of the input gives the number of test cases, **T**. **T** test ca
 For each test case, output one line containing `Case #x: y`, where `x` is the test case number (starting from 1) and `y` is a string of **L** + 1 uppercase English alphabet letters: the plaintext.
 
 ##  Limits
-1 ≤ **T** ≤ 100.
-
-Time limit: 20 seconds per test set.
-
-Memory limit: 1 GB.
-
-25 ≤ **L** ≤ 100.
-
-The plaintext contains each English alphabet letter at least once.
+* 1 ≤ **T** ≤ 100.
+* Time limit: 20 seconds per test set.
+* Memory limit: 1 GB.
+* 25 ≤ **L** ≤ 100.
+* The plaintext contains each English alphabet letter at least once.
 
 ### Test set 1 (Visible)
-101 ≤ **N** ≤ 10000.
+* 101 ≤ **N** ≤ 10000.
 
 ### Test set 2 (Hidden)
-101 ≤ **N** ≤ 10¹⁰⁰.
+* 101 ≤ **N** ≤ 10¹⁰⁰.
 
 ##  Sample
 ### Input

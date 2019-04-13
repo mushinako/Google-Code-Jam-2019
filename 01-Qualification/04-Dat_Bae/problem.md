@@ -32,26 +32,22 @@ Once your program knows the index of the **B** broken workers, it can finish the
 If the **B** integers are not exactly the IDs of the **B** broken workers, you will receive a Wrong Answer verdict, and the judge will send a single line containing `-1`, and then no additional communication. If your answer was correct, the judge will send a single line with `1`, followed by the line that begins the next test case (or exit, if that was the last test case).
 
 ##  Limits
-Time limit: 20 seconds per test set.
-
-Memory limit: 1GB.
-
-1 ≤ **T** ≤ 100.
-
-2 ≤ **N** ≤ 1024.
-
-1 ≤ **B** ≤ min(15, **N**-1).
+* Time limit: 20 seconds per test set.
+* Memory limit: 1GB.
+* 1 ≤ **T** ≤ 100.
+* 2 ≤ **N** ≤ 1024.
+* 1 ≤ **B** ≤ min(15, **N**-1).
 
 ### Test set 1 (Visible)
-**F** = 10.
+* **F** = 10.
 
 ### Test set 2 (Hidden)
-**F** = 5.
+* **F** = 5.
 
 ##  Testing Tool
 You can use this testing tool to test locally or on our servers. To test locally, you will need to run the tool in parallel with your code; you can use our [interactive runner](https://storage.googleapis.com/coding-competitions.appspot.com/interactive_runner.py) for that. For more information, read the Interactive Problems section of the [FAQ](https://codingcompetitions.withgoogle.com/codejam/faq).
 
-##  Local Testing Tool
+### Local Testing Tool
 To better facilitate local testing, we provide you the following script. Instructions are included inside. You are encouraged to add more test cases for better testing. Please be advised that although the testing tool is intended to simulate the judging system, it is **NOT** the real judging system and might behave differently.
 
 If your code passes the testing tool but fails the real judge, please check [here](https://code.google.com/codejam/resources/faq#language-details) to make sure that you are using the same compiler as us.

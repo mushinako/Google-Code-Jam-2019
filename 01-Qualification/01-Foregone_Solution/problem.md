@@ -14,24 +14,21 @@ For each test case, output one line containing `Case #x: A B`, where `x` is the 
 It is guaranteed that at least one solution exists. If there are multiple solutions, you may output any one of them. (See "What if a test case has multiple correct solutions?" in the Competing section of the [FAQ](https://codingcompetitions.withgoogle.com/codejam/faq). This information about multiple solutions will not be explicitly stated in the remainder of the 2019 contest.)
 
 ##  Limits
-1 ≤ **T** ≤ 100.
-
-Time limit: 10 seconds per test set.
-
-Memory limit: 1GB.
-
-At least one of the digits of **N** is a 4.
+* 1 ≤ **T** ≤ 100.
+* Time limit: 10 seconds per test set.
+* Memory limit: 1GB.
+* At least one of the digits of **N** is a 4.
 
 ### Test set 1 (Visible)
-1 < **N** < 10⁵.
+* 1 < **N** < 10⁵.
 
 ### Test set 2 (Visible)
-1 < **N** < 10⁹.
+* 1 < **N** < 10⁹.
 
-### Test set 3 (Hidden)
 Solving the first two test sets for this problem should get you a long way toward advancing. The third test set is worth only 1 extra point, for extra fun and bragging rights!
 
-1 < **N** < 10¹⁰⁰.
+### Test set 3 (Hidden)
+* 1 < **N** < 10¹⁰⁰.
 
 ##  Sample
 ### Input

@@ -1,4 +1,7 @@
 #!/usr/bin/env python3
+from math import gcd
+
+
 def main():
     # `t`: Number of test cases
     t = int(input())
@@ -43,15 +46,6 @@ def main():
         # Decode
         result = ''.join([dic[x] for x in factored])
         print('Case #{0}: {1}'.format(i, result))
-
-
-# Greatest Common Divisor
-def gcd(a, b):
-    if b > a:
-        return gcd(b, a)
-    if a % b:
-        return gcd(b, a % b)
-    return b
 
 
 if __name__ == '__main__':

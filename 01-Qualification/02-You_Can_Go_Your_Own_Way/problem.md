@@ -18,24 +18,20 @@ The first line of the input gives the number of test cases, **T**. **T** test ca
 For each test case, output one line containing `Case #x: y`, where `x` is the test case number (starting from 1) and `y` is a string of 2**N** - 2 characters each of which is either uppercase `E` (for east) or uppercase `S` (for south), representing your valid path through the maze that does not conflict with Lydia's path, as described above. It is guaranteed that at least one answer exists.
 
 ##  Limits
-1 ≤ **T** ≤ 100.
-
-Time limit: 15 seconds per test set.
-
-Memory limit: 1GB.
-
-**P** contains exactly **N** - 1 `E` characters and exactly **N** - 1 `S` characters.
+* 1 ≤ **T** ≤ 100.
+* Time limit: 15 seconds per test set.
+* Memory limit: 1GB.
+* **P** contains exactly **N** - 1 `E` characters and exactly **N** - 1 `S` characters.
 
 ### Test set 1 (Visible)
-2 ≤ **N** ≤ 10.
+* 2 ≤ **N** ≤ 10.
 
 ### Test set 2 (Visible)
-2 ≤ **N** ≤ 1000.
+* 2 ≤ **N** ≤ 1000.
 
 ### Test set 3 (Hidden)
-For at most 10 cases, 2 ≤ **N** ≤ 50000.
-
-For all other cases, 2 ≤ **N** ≤ 10000.
+* For at most 10 cases, 2 ≤ **N** ≤ 50000.
+* For all other cases, 2 ≤ **N** ≤ 10000.
 
 ##  Sample
 ### Input
