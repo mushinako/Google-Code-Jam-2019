@@ -4,7 +4,7 @@ These are my messy solutions for [Google Code Jam 2019](https://codingcompetitio
 In each folder, the following files can be present:
 * Vanilla files from the problem:
   * `problem.md`: A Markdown-version of the problem
-  * `sample.in`: Sample input directly from `problem.md`
+  * `sample.in`: Sample input directly from `problem.md` (Only in non-interactive problems)
   * `interactive_runner.py`: [Interactive runner](https://storage.googleapis.com/coding-competitions.appspot.com/interactive_runner.py) offered by Code Jam. See explanation on [Code Jam FAQ](https://codingcompetitions.withgoogle.com/codejam/faq). (Only in interactive problems)
   * `testing_tool.py`: Testing tool offered by an interactive problem. (Only in interactive problems)
 * My files (Uploaded **after** round ends):
@@ -20,6 +20,7 @@ It's good enough; it runs fast enough; I'm lazy; it has much handled for me.
 | :-----------: | :-: | :--: |
 | Qualification | 100 | 154  |
 | 1A            | 32  | 2524 |
+| 1B            | 54  | 1162 |
 
 ## Progress
 ### Qualification
@@ -32,6 +33,11 @@ It's good enough; it runs fast enough; I'm lazy; it has much handled for me.
 - [ ] Pylons - **Still thinking...**
 - [x] Golf Gophers
 - [ ] Alien Rhyme - **Still thinking...**
+
+### 1B
+- [ ] Manhattan Crepe Cart - **Not satisfactory...**
+- [x] Draupnir
+- [ ] Fair Fight - **Not satisfactory...**
 
 ## Contribution!
 Contributions are greatly appreciated! Do a pull request, or just start your own repository! Let me know if there are any errors in my solutions as well! Greatest appreciations in advance!
