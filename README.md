@@ -21,6 +21,7 @@ It's good enough; it runs fast enough; I'm lazy; it has much handled for me.
 | Qualification | 100 | 154  |
 | 1A            | 32  | 2524 |
 | 1B            | 54  | 1162 |
+| 1C            | N/A | N/A  |  (I passed 1B)
 
 ## Progress
 ### Qualification
@@ -38,6 +39,18 @@ It's good enough; it runs fast enough; I'm lazy; it has much handled for me.
 - [ ] Manhattan Crepe Cart - **Not satisfactory...**
 - [x] Draupnir
 - [ ] Fair Fight - **Not satisfactory...**
+
+<!--
+### !C
+- [ ]
+- [ ]
+- [ ]
+
+### 2
+- [ ]
+- [ ]
+- [ ]
+-->
 
 ## Contribution!
 Contributions are greatly appreciated! Do a pull request, or just start your own repository! Let me know if there are any errors in my solutions as well! Greatest appreciations in advance!
