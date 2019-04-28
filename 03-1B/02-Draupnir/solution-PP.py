@@ -2,6 +2,7 @@
 import sys
 
 
+# My choice of days to be sent
 DAYS = (56, 170)
 
 
@@ -14,6 +15,7 @@ def main():
 def draupnir():
     # eprint()
     judge_res = []
+    # Get both judge responses
     for d in DAYS:
         fprint(d)
         judge_res.append(int(judge_input()))

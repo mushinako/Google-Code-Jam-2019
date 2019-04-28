@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 
+# Get the smallest position of maximum number of a 2d-array
 def getmaxcoord(man, q):
     most = max(map(max, man))
     for j in range(q):
@@ -14,10 +15,9 @@ def main():
     for k in range(1, t+1):
         p, q = [int(x) for x in input().split()]
         q += 1
-        # ppls = []
+        # Set up a 2d-array of intersections, and count the number of people
+        #   who potentially goes to that section
         man = [[0] * q for _ in range(q)]
-        # xl = yl = 0
-        # xu = yu = q
         for _ in range(p):
             xcoord, ycoord, dire = input().split()
             x = int(xcoord)
