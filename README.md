@@ -9,7 +9,7 @@ In each folder, the following files can be present:
   * `testing_tool.py`: Testing tool offered by an interactive problem. (Only in interactive problems)
 * My files (Uploaded **after** round ends):
   * `analysis.md`: My analysis for the problem
-  * `solution-P|F|U[+].py`: My best attempt with results marked in the name. E.g., the solution passed 1st but failed 2nd test set and did not have 3rd set checked would be named `solution-sub-PFU.py`
+  * `solution-P|F|U[+].py`: My best attempt with results marked in the name. E.g., the solution passed 1st but failed 2nd test set and did not have 3rd set checked would be named `solution-PFU.py`
   * Other files, if present, will be explained in `analysis.md`
 
 ## Why Python 3?
