@@ -16,12 +16,12 @@ In each folder, the following files can be present:
 It's good enough; it runs fast enough; I'm lazy; it has much handled for me.
 
 ## Results
-| Round         | Pts | Rank |
-| :-----------: | :-: | :--: |
-| Qualification | 100 | 154  |
-| 1A            | 32  | 2524 |
-| 1B            | 54  | 1162 |
-| 1C            | N/A | N/A  |  (I passed 1B)
+| Round         | Pts | Rank | Note        |
+| :-----------: | :-: | :--: | :---------: |
+| Qualification | 100 | 154  |             |
+| 1A            | 32  | 2524 |             |
+| 1B            | 54  | 1162 |             |
+| 1C            | N/A | N/A  | I passed 1B |
 
 ## Progress
 ### Qualification
