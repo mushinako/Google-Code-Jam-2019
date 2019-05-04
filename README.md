@@ -40,12 +40,12 @@ It's good enough; it runs fast enough; I'm lazy; it has much handled for me.
 - [x] Draupnir
 - [ ] Fair Fight - **Not satisfactory...**
 
-<!--
 ### !C
-- [ ]
-- [ ]
-- [ ]
+- [ ] Robot Programming Strategy - **Still thinking...**
+- [x] Power Arrangers
+- [ ] Bacterial Tactics - **Still thinking...**
 
+<!--
 ### 2
 - [ ]
 - [ ]
