@@ -2,9 +2,9 @@
 ##  My Approach
 For the large set, we only have 2 chances to ask the well of knowledge. Therefore, we have to get at least 4 values not directly from solving the equations.
 
-Notice that each `Rᵢ` is at most 100 < 128 = 2⁷, thus ![2^mR_i&plus;2^nR_j=y](https://latex.codecogs.com/svg.latex?2^mR_i&plus;2^nR_j=y) is solvable if the differece between m and n is at least 7
+Notice that each `Rᵢ` is at most 100 < 128 = 2⁷, thus ![2^mR_i&plus;2^nR_j=y](https://latex.codecogs.com/svg.latex?2^mR_i&plus;2^nR_j=y) is solvable if the difference between m and n is at least 7
 
-I chose days 56 and 170. On day 56, `R₁` and `R₂` can be isolated from the rest. On day 170, `R₃` and `R₄` can be isolated from the rest. Then `R₅` and `R₆` can be solved via regular equation-solving techiniques.
+I chose days 56 and 170. On day 56, `R₁` and `R₂` can be isolated from the rest. On day 170, `R₃` and `R₄` can be isolated from the rest. Then `R₅` and `R₆` can be solved via regular equation-solving techniques.
 
 ### Calculation Details
 On day 56:

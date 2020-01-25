@@ -27,7 +27,7 @@ For each test case, output one line containing `Case #t: x y`, where t is the te
 * For all `i`, if **Xᵢ** = 0, **Dᵢ** ≠ `W`.
 * For all `i`, if **Yᵢ** = 0, **Dᵢ** ≠ `S`.
 * For all `i`, if **Xᵢ** = Q, **Dᵢ** ≠ `E`.
-* For all `i`, if **Xᵢ** = Q, **Dᵢ** ≠ `N`.
+* For all `i`, if **Yᵢ** = Q, **Dᵢ** ≠ `N`.
 
 ### Test set 1 (Visible)
 * **Q** = 10.
