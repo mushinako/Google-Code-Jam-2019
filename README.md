@@ -36,7 +36,7 @@ It's good enough; it runs fast enough; I'm lazy; it has much handled for me.
 - [ ] Alien Rhyme - **Still thinking...**
 
 ### 1B
-- [ ] Manhattan Crepe Cart - **Not satisfactory...**
+- [x] Manhattan Crepe Cart
 - [x] Draupnir
 - [ ] Fair Fight - **Not satisfactory...**
 
